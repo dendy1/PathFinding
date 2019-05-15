@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\Unity\PathFinding" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Materials" t="Include">
+          <e p="Outliner" t="Include">
+            <e p="CustomOutline-CameraIndependent.shader" t="Include" />
+            <e p="CustomOutline-ConstantWidth.shader" t="Include" />
+            <e p="CustomOutline.shader" t="Include" />
+            <e p="Outlined-Silhouette Only.shader" t="Include" />
+            <e p="RegularOutline.shader" t="Include" />
+            <e p="triangleOutline.shader" t="Include" />
+            <e p="UniformOutline.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Combat" t="Include">
+            <e p="Combative.cs" t="Include" />
+          </e>
+          <e p="Controllers" t="Include">
+            <e p="BaseController.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
+            <e p="EnemyController.cs" t="Include" />
+            <e p="FollowCamera.cs" t="Include" />
+            <e p="MinionController.cs" t="Include" />
+            <e p="MOBACamera.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+          <e p="Events Components" t="Include">
+            <e p="EventArgs" t="Include">
+              <e p="PlayerAttackedEA.cs" t="Include" />
+              <e p="PlayerMovedEA.cs" t="Include" />
+            </e>
+            <e p="EventManager.cs" t="Include" />
+          </e>
+          <e p="Hightlighter.cs" t="Include" />
+          <e p="Interaction" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="Interactable.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
+            <e p="PoolManager.cs" t="Include" />
+          </e>
+          <e p="NavMeshComponents" t="Include">
+            <e p="Editor" t="Include">
+              <e p="NavMeshAssetManager.cs" t="Include" />
+              <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+              <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+              <e p="NavMeshLinkEditor.cs" t="Include" />
+              <e p="NavMeshModifierEditor.cs" t="Include" />
+              <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+              <e p="NavMeshSurfaceEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="NavMeshComponents.asmdef" t="Include" />
+              <e p="NavMeshLink.cs" t="Include" />
+              <e p="NavMeshModifier.cs" t="Include" />
+              <e p="NavMeshModifierVolume.cs" t="Include" />
+              <e p="NavMeshSurface.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PoolComponents" t="Include">
+            <e p="ObjectPooling.cs" t="Include" />
+            <e p="PoolObject.cs" t="Include" />
+            <e p="PoolSetup.cs" t="Include" />
+          </e>
+          <e p="Spawner.cs" t="Include" />
+          <e p="Stats" t="Include">
+            <e p="CharacterStats.cs" t="Include" />
+            <e p="EnemyStats.cs" t="Include" />
+            <e p="MinionStats.cs" t="Include" />
+            <e p="PlayerStats.cs" t="Include" />
+            <e p="Statistic.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="CustomMath.cs" t="Include" />
+            <e p="GizmosExtensions.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Healthbar.cs" t="Include" />
+            <e p="KeyButton.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PathFinding.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\Andrey\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Andrey\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_PathFinding.742426812.00" t="ExcludeRecursive" />
+  </component>
+</project>
