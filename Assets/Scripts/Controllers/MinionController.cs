@@ -15,6 +15,7 @@ public class MinionController : BaseController
 
     private State _currentState;
     private float _defaultVision;
+    private float _defaultSpeed;
 
     private Collider[] _enemies;
     
@@ -30,6 +31,7 @@ public class MinionController : BaseController
             if (value == State.BERSERK)
             {
                 visionRadius = 500f;
+                Agent.speed *= 3f;
                 var newTarget = FindClosestEnemy();
                 SetFocus(newTarget.GetComponent<Interactable>());
             }
@@ -38,11 +40,13 @@ public class MinionController : BaseController
                 StopFollowingTarget();
                 RemoveFocus();
                 visionRadius = _defaultVision;
+                Agent.speed = _defaultSpeed;
             }
             else
             {
                 CheckPoint = Vector3.negativeInfinity;
                 visionRadius = _defaultVision;
+                Agent.speed = _defaultSpeed;
                 SetFocus(PlayerManager.Instance.Player.GetComponent<Interactable>());
             }
         }
@@ -51,7 +55,8 @@ public class MinionController : BaseController
     private void Start()
     {
         EventManager.SubscribeToEvent("PlayerAttacked", OnPlayerAttacked);
-        
+
+        _defaultSpeed = Agent.speed;
         _defaultVision = visionRadius;
         _enemies = new Collider[50];
 
